@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="heading">
+          <h1>RESULTS</h1>
+          <p class="para">Enter Marks (0-100)</p>
+        </div>
+        <input type="number" id="marks" placeholder="Enter Marks" min="0" max="100" />
+        <div class="input2">
+          <input id="graceCheckbox" type="checkbox" style="width: 20px; height: 20px;" checked />
+          Apply Grace Number (+2 for 32 marks)
+        </div>
+        <div class="button">
+          <button class="btn" id="submitBtn">SUBMIT</button>
+        </div>
+        <p class="para1" id="resultText"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
